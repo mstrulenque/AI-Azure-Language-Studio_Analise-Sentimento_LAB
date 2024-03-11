@@ -50,7 +50,7 @@ LAB - com o passo-a-passo em texto e print screen, configurando o recurso `Langu
 ▶️  `README.MD`                  - Passo-a-Passo com Print Screen's; <br><br>
 ▶️  `inputs/opiniao-celular-maria_p.txt`   - texto do Teste 1, para analisar o sentimento; <br>
 ▶️  `inputs/opiniao-celular-joao_n.txt`    - texto do Teste 2, para analisar o sentimento; <br>
-▶️  `inputs/opiniao-celular-jose_p_n.tx    - texto do Teste 3, para analisar o sentimento; <br>
+▶️  `inputs/opiniao-celular-jose_p_n.txt`  - texto do Teste 3, para analisar o sentimento; <br>
 
 ---
 
@@ -160,7 +160,7 @@ caso contrário escolha na lista; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 5.1.4 - Clique no botão `Done`; <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="668" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/333407ca-fd4f-49fd-beed-f009cb0816be">
 
 ---
@@ -188,7 +188,7 @@ caso contrário escolha na lista; <br>
 
 ## 3 - LAB - `Sentiment Analysis`
 
-3.1 `Teste 1` - Texto 1 : `opiniao-celular-maria_p.txt` <br>
+3.1 `TESTE - 01` - Texto 1 : `opiniao-celular-maria_p.txt` <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 3.1.1 - `Select Text Language` (idioma) - Selecionar: `Portuguese (Brazil)` se for utilizar arquivo texto deste repositório GitHub: <br>
@@ -196,58 +196,122 @@ caso contrário escolha na lista; <br>
 3.1.2 - `Azure Resource` - Selecionar o Resource que foi criado na Azure (Preparação do LAB) <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.1.3 - `Teste - 01` <br>
+3.1.3 - `Escolhendo o Texto 1`: `opiniao-celular-maria_p.txt` - pasta: `inputs` - deste repositório GitHub: <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ▶️  `Escolhendo o Texto 1`: `opiniao-celular-maria_p.txt` - pasta: `inputs` - deste repositório GitHub: <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           ▶️  Clicar no box `Browse a File` ; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           ▶️ Escolher o Arquivo `opiniao-celular-maria_p.txt` que fez download do repositorio GitHub p/ sua maquina; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           ▶️ Clique em `Abrir` ; <br>          
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/43913d1d-1646-4274-b225-aa8f16a75557">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="491" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/4dbe752a-1719-4a5e-8499-03d9b2783657">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ▶️  `Executando o Teste - 01`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.1.4 - `Executando o Teste - 01`
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           ▶️  Clique no botão 'Run`;
    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="475" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/0918be34-a9c0-4653-9ea4-864c06b614dc">
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ▶️  `Resultado do Processamento - Texto 1` pelo `Language Studio`: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.1.5 - `Resultado do Processamento - Texto 1` pelo `Language Studio`: <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="577" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/3aa05320-5009-4149-a2b0-ee0f647ac387">
 
 
 <br>
 <br>
 
-3.2 `Teste 2` - Texto 2 : `xxxxxxxxxxxxxxxx.txt` <br>
+3.2 `TESTE - 02` - Texto 2 : `opiniao-celular-joao_n.txt` <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.1 - `Select Text Language` (idioma) - Selecionar: `Portuguese (Brazil)` se for utilizar arquivo texto deste repositório GitHub: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.2 - `Azure Resource` - Selecionar o Resource que foi criado na Azure (Preparação do LAB) <br>
 
-EM ANDAMENTO..........
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.3 - `Escolhendo o Texto 2`: `opiniao-celular-joao_n.txt` - pasta: `inputs` - deste repositório GitHub: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️  Clicar no box `Browse a File` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️ Escolher o Arquivo `opiniao-celular-joao_n.txt` que fez download do repositorio GitHub p/ sua maquina; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️ Clique em `Abrir` ; <br>          
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/43913d1d-1646-4274-b225-aa8f16a75557">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="426" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/27771125-de79-4151-b2d7-218f34409d33">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.4 - `Executando o Teste - 02`
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️  Clique no botão 'Run`;
+   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="475" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/0918be34-a9c0-4653-9ea4-864c06b614dc">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.5 - `Resultado do Processamento - Texto 2` pelo `Language Studio`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="644" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/a2ed7379-5f4d-422b-b59f-eeb20ace27b3">
+
 
 <br>
 <br>
 
-3.3 `Teste 3` - Texto 2 : `yyyyyyyyyyyyyyyyyy.txt` <br>
+3.3 `TESTE - 03` - Texto 3 : `opiniao-celular-jose_p_n.txt` <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.1 - `Select Text Language` (idioma) - Selecionar: `Portuguese (Brazil)` se for utilizar arquivo texto deste repositório GitHub: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.2 - `Azure Resource` - Selecionar o Resource que foi criado na Azure (Preparação do LAB) <br>
 
-EM ANDAMENTO..........
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.3 - `Escolhendo o Texto 3`: `opiniao-celular-jose_p_n.txt` - pasta: `inputs` - deste repositório GitHub: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️  Clicar no box `Browse a File` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️ Escolher o Arquivo `opiniao-celular-jose_p_n.txt` que fez download do repositorio GitHub p/ sua maquina; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️ Clique em `Abrir` ; <br>          
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/43913d1d-1646-4274-b225-aa8f16a75557">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="394" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/277928ec-51d3-4747-8593-ed1fca715f4c">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.4 - `Executando o Teste - 03`
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️  Clique no botão 'Run`;
+   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="351" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/588325ef-7ca4-4141-90f3-bcf84222c535">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.5 - `Resultado do Processamento - Texto 3` pelo `Language Studio`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="829" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/2370283e-a34f-4953-b518-bc6a5bf89144">
 
 
+<br>
+<br>
 
